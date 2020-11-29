@@ -55,6 +55,19 @@ dependencies {
     // Dependencies for local unit tests
     testImplementation "junit:junit:$junitVersion"
 
+    testImplementation "androidx.arch.core:core-testing:$archTestingVersion"
+
+    testImplementation "androidx.arch.core:core-testing:$archTestingVersion"
+
+    testImplementation "org.hamcrest:hamcrest-all:$hamcrestVersion"
+    androidTestImplementation "androidx.arch.core:core-testing:2.1.0"
+
+    testImplementation "androidx.test.ext:junit-ktx:$androidXTestExtKotlinRunnerVersion"
+
+    testImplementation "androidx.test:core-ktx:$androidXTestCoreVersion"
+
+    testImplementation "org.robolectric:robolectric:$robolectricVersion"
+
     // AndroidX Test - Instrumented testing
     androidTestImplementation "androidx.test.ext:junit:$androidXTestExtKotlinRunnerVersion"
     androidTestImplementation "androidx.test.espresso:espresso-core:$espressoVersion"
